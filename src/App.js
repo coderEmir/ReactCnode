@@ -1,12 +1,21 @@
 import React from 'react';
 import './App.css';
-import 'antd/dist/antd.css'
-import { Button } from 'antd';
+import 'antd/dist/antd.less'
+import ViewRouters from './router';
+// 测试代码
+// import { Button } from 'antd';
+import { Layout } from 'antd';
+import Header from './component/header';
 function App() {
   return (
-    <div className="App">
-     <Button>按钮</Button>
-    </div>
+    <Layout>
+      {/* 测试代码 */}
+      {/* <Button type="primary">按钮</Button> */}
+      <Header>
+        <ViewRouters />
+      </Header>
+     
+    </Layout> 
   );
 }
 
