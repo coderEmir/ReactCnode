@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-
+import 'antd/dist/antd.css'
+import { Button } from 'antd';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+     <Button>按钮</Button>
     </div>
   );
 }
